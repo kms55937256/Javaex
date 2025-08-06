@@ -3,7 +3,7 @@ package mylab.student.control;
 import mylab.student.entity.Student;
 
 import mylab.student.exception.InvalidGradeException;
-
+   //git ¿¬½À
 public class StudentTest {
 	
 	public static void main(String[] args) {
