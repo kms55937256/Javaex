@@ -38,7 +38,7 @@ public class BankDemo {
         }
         System.out.println();
 
-        // === 계좌 이체 테스트 ===
+        // === 계좌 이체 테스트 === =
         try {
             System.out.println("── 계좌 이체 테스트 ──");
             bank.transfer(ac1, ac2, 5000.0);
