@@ -52,7 +52,7 @@ public class Bank {
         Account a = findAccount(accountNumber);
         a.withdraw(amount);
         System.out.printf("%.1f원이 출금되었습니다. 현재 잔액: %.1f원%n", amount, a.getBalance());
-    }
+    } 
 
     public void transfer(String from, String to, double amount)
             throws AccountNotFoundException, InsufficientBalanceException {

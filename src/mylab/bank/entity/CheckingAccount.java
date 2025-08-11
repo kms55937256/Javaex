@@ -5,7 +5,7 @@ import mylab.bank.exception.WithdrawalLimitExceededException;
 
 public class CheckingAccount extends Account {
     private double withdrawalLimit; // 출금 한도
-
+ 
     public CheckingAccount(String accountNumber, String ownerName, double balance, double withdrawalLimit) {
         super(accountNumber, ownerName, balance);
         this.withdrawalLimit = withdrawalLimit;
